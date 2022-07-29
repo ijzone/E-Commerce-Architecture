@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T08:04:46.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KgbfyekwqCn_aZVeJs0_" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-29T11:29:27.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rpEixiOw4Axbvhn-PUUz" version="20.2.2" type="github" pages="2">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Canvas">
     <mxGraphModel dx="3616" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -140,13 +140,13 @@
         <mxCell id="CpGy9sX1BKviNFdYjGn5-34" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="410" y="320" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="CpGy9sX1BKviNFdYjGn5-35" value="+orderId&#xa;+customerId&#xa;+status&#xa;+orderAmount&#xa;+currency&#xa;+taxAmount&#xa;+unitPrice&#xa;+shippingAmount&#xa;+discountType&#xa;+orderDiscount&#xa;+shippingDiscount&#xa;+subtotal&#xa;+total&#xa;+orderDate&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CpGy9sX1BKviNFdYjGn5-34">
+        <mxCell id="CpGy9sX1BKviNFdYjGn5-35" value="+orderId&#xa;+customerId&#xa;+status&#xa;+orderAmount&#xa;+currency&#xa;+taxAmount&#xa;+unitPrice&#xa;+shippingAmount&#xa;+discountType&#xa;+orderDiscount&#xa;+shippingDiscount&#xa;+subtotal&#xa;+total&#xa;+orderDate&#xa;+shipDate" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CpGy9sX1BKviNFdYjGn5-34">
           <mxGeometry y="30" width="160" height="240" as="geometry" />
         </mxCell>
         <mxCell id="CpGy9sX1BKviNFdYjGn5-36" value="Shipment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="770" y="320" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="CpGy9sX1BKviNFdYjGn5-37" value="+shipmentId&#xa;+orderId&#xa;+shippingAmount&#xa;+shippingDiscount&#xa;+discountType&#xa;+currency&#xa;+geocode&#xa;+street1&#xa;+street2&#xa;+city&#xa;+province&#xa;+country&#xa;+postalCode&#xa;+postalCodeType&#xa;+shipperId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CpGy9sX1BKviNFdYjGn5-36">
+        <mxCell id="CpGy9sX1BKviNFdYjGn5-37" value="+shipmentId&#xa;+orderId&#xa;+shippingAmount&#xa;+shippingDiscount&#xa;+discountType&#xa;+currency&#xa;+street1&#xa;+street2&#xa;+city&#xa;+province&#xa;+country&#xa;+postalCode&#xa;+postalCodeType&#xa;+shipperId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="CpGy9sX1BKviNFdYjGn5-36">
           <mxGeometry y="30" width="160" height="240" as="geometry" />
         </mxCell>
       </root>
